@@ -235,28 +235,22 @@ function likeFunction(x) {
 </script>
 
 <script>
-			$(document).ready(function(){
-				
-			
-	    		$('#inicio').click(function(){
-	       		$("#contenido").load("index.html");
-	    									 });
+<script>
+$(document).ready(function(){
+	$('#biografia').click(function(){
+		$("#contenido").load("biografia.html");
+								 });
 
-	    		$('#quehago').click(function(){
-	       		$("#contenido").load("quehago.html");
-	    									 });
+	$('quehago').click(function(){
+		$("#contenido").load("quehago.html");
+								 });
 
-	    		$('#biografia).click(function(){
-	       		$("#contenido").load("biografia.html");
-	    									 });
-	    		
-	    		$('#contacto').click(function(){
-		       		$("#contenido").load("contacto.html");
-	    									 });
-		       		
-		    									
-										});
-		</script>
+	$('contacto').click(function(){
+		$("#contenido").load("contacto.html");
+								 });
+							});
+</script>
+		
 
 </body>
 </html>
