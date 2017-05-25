@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<title>Biografia </title>
 </head>
 <body>
  <div  class="w3-container w3-white w3-margin w3-padding-large">
@@ -28,7 +30,14 @@
 		    Aquel sería el comienzo de una larga amistad.
 		 </p>
 		 
-		 
+		 <div class="w3-content w3-section" style="max-width:500px">
+		  <p>Galeria de fotografias</p>
+		
+		  <img class="mySlides w3-animate-fading" src="imguno.jpg" style="width:100%">
+		  <img class="mySlides w3-animate-fading" src="imgdos.jpg" style="width:100%">
+		  <img class="mySlides w3-animate-fading" src="imgtres.jpg" style="width:100%">
+		  <img class="mySlides w3-animate-fading" src="imgcuatrojpg" style="width:100%">
+		</div>
            
          
            
@@ -45,5 +54,23 @@
           </div>
         </div>
       </div>
+      
+      
+      <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
 </body>
 </html>
