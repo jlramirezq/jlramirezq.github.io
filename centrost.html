@@ -11,6 +11,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
@@ -71,26 +72,35 @@
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
+  
+  body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url(""imagenes/plaza1.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+  
   </style>
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-            <a class="navbar-brand" href="#" style="font-family: 'Merienda', cursive;">CENTROS TURISTICOS DE CAJAMARCA</a>
-    </div>
-    
-  </div>
-</nav>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Bienvenido a </h3>
-  <img src="imagenes/plaza.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3>CAJAMARCA</h3>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">CENTROS TURISTICOS </h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">Cajamarca</p>
+  </div>
+  
 </div>
+
+
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
