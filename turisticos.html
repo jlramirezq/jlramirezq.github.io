@@ -268,14 +268,34 @@ var __st={"a":17758583,"offset":-25200,"reqid":"fe30fbdf-fcce-4581-9f8d-f984a5de
 	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
 	.social ul li .icon-twitter {background: #00abf0;}
 	.social ul li .icon-googleplus {background: #d95232;}
-	.social ul li .icon-pinterest {background: #ae181f;}
-	.social ul li .icon-mail {background: #666666;}
+		.social ul li .icon-mail {background: #666666;}
  
 	.social ul li a:hover {
 		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}
   
+  
+  
+  .ui-button{
+    position:relative;
+    display:inline-block;
+    width:200px;
+    height:40px;
+    padding:4px;
+    -moz-border-radius:24px;
+    -webkit-border-radius:24px;
+    -ms-border-radius:24px;
+    border-radius:24px;
+    background:rgba(136,136,136,1);
+    background:-moz-linear-gradient(top, rgba(136,136,136,1) 0%, rgba(255,255,255,1) 100%);
+    background:-webkit-gradient(left top, left bottom, color-stop(0%, rgba(136,136,136,1)), color-stop(100%, rgba(255,255,255,1)));
+    background:-webkit-linear-gradient(top, rgba(136,136,136,1) 0%, rgba(255,255,255,1) 100%);
+    background:-o-linear-gradient(top, rgba(136,136,136,1) 0%, rgba(255,255,255,1) 100%);
+    background:-ms-linear-gradient(top, rgba(136,136,136,1) 0%, rgba(255,255,255,1) 100%);
+    background:linear-gradient(to bottom, rgba(136,136,136,1) 0%, rgba(255,255,255,1) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#ffffff', GradientType=0 );
+}
   
   
   </style>
@@ -298,6 +318,15 @@ var __st={"a":17758583,"offset":-25200,"reqid":"fe30fbdf-fcce-4581-9f8d-f984a5de
       <div class="nav-background" >
         <div class="ea k" style="background-image: url('/imagenes/h.JPG');"></div>
       </div>
+      
+      <div class="ui-button">
+    		<div class="ui-click">|||</div>
+	   		 <div class="ui-state">
+	        <span class="ui-on">ON</span>
+	        <span class="ui-off">OFF</span>
+	    	</div>
+		</div>
+	      
       <div class="nav-wrapper db">
         <a href="" class="brand-logo"><i class="material-icons">location_on</i>Centros Turísticos</a>
         
