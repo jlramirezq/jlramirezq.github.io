@@ -19,18 +19,48 @@ $(document).ready(function(){
 
 
 
-var x =	document.getElementById("like");
-x.onclick = megusta();
-		
-}
-
-function megusta(){
-	
-	alert("Gracias por darle me gusta");
-}
 
 
 windows.onload;
+function nuevoEvento(elemento, evento, funcion) {
+    // para cualquier navegador
+    try {
+        if (elemento.addEventListener)
+            elemento.addEventListener(evento, funcion, false);
+ 
+        // para IE
+        else
+            elemento.attachEvent("on" + evento, funcion);
+    } catch(e) {
+        alert("No se pudo agregar el eventon" + e.name + " - " + e.message);
+    }
+}
+ 
+// codigo javascript no intrusivo que asigna al evento onload una funcion
+function addLoadEvent(func) {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function')
+        window.onload = func;
+    else {
+        window.onload = function() {
+            if (oldonload)
+            oldonload();
+            func();
+        }
+    }
+}
+
+
+function mensaje() {
+    alert("Gracias por hacerme click");
+}
+ 
+function inicia() {
+    nuevoEvento(document.getElementById("like"),"click",mensaje);
+}
+ 
+
+addLoadEvent(inicia);
 
 
 
