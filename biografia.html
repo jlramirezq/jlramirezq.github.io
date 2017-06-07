@@ -41,10 +41,8 @@
            
          
            
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="like"><b><i class="fa fa-thumbs-up"></i> Me gusta</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Respuestas </b> <span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p>
-          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+         
+          <div class="w3-row w3-margin-bottom"  style="display:none">
             <hr>
               
               <div class="w3-col l10 m9">
@@ -56,21 +54,6 @@
       </div>
       
       
-      <script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 9000);    
-}
-</script>
+    
 </body>
 </html>
