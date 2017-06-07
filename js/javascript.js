@@ -22,9 +22,9 @@ windows.onload= function(){
 		
 }
 
-function like(x){
+function like(){
 	
-	x.innerHTML=" :) Te gusta!!!!"
+	confirm("Gracias por darle me gusta");
 }
 
 
