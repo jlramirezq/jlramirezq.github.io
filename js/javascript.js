@@ -14,9 +14,7 @@ function likeFunction(x) {
     x.style.fontWeight = "bold";
     x.innerHTML = "✓ Liked";
 }
-</script>
 
-<script>
 
 $(document).ready(function(){
 	$('#biografia').click(function(){
