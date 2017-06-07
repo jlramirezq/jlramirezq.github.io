@@ -70,16 +70,10 @@ function addLoadEvent(func) {
 }
 
 
-function mensaje() {
-    alert("Gracias por hacerme click");
-}
- 
-function inicia() {
-    nuevoEvento(document.getElementById("likees"),"click",mensaje);
-}
+
  
 
-addLoadEvent(inicia);
+addLoadEvent(carousel);
 
 
 
