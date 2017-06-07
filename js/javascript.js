@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
 	$('#biografia').click(function(){
 		$("#contenido").load("biografia.html");
@@ -17,3 +16,9 @@ $(document).ready(function(){
 		$("#contenido").load("contacto.html");
 								 });
 							});
+
+
+}
+
+
+
