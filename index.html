@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
-<title>Pagina Personal</title>
+<title>Página Personal</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/animate.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
-<style>
-h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
-body {font-family: "Open Sans"}
-</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+
+
 <body class="w3-light-grey">
 
-<!-- Navigation bar with social media icons -->
+<!--BARRA SOCIAL-->
 <div class="w3-bar w3-black w3-hide-small">
   <a href="https://www.facebook.com/josecitl" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
   <a href="https://www.instagram.com/josh_divergent/" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
@@ -25,8 +26,7 @@ body {font-family: "Open Sans"}
   <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
 </div>
   
-<!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
+
 <div class="w3-content" style="max-width:1600px">
 
  
@@ -35,7 +35,9 @@ and is wrapped around the whole page content, except for the footer in this exam
     <h6 class="animated infinite tada">Bienvenidos a mi Blog <span class="w3-tag">JLRAMIREZ</span></h6>
   </header>
 
- <!-- Header carrusel -->
+
+
+<!--IMAGES CARRUSEL -->
 <header>
 	<div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -45,8 +47,13 @@ and is wrapped around the whole page content, except for the footer in this exam
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
+    
+    
+    
+    
 
-    <!-- Contenido -->
+    <!-- CONTENIDO-->
+    
     <div class="carousel-inner">
 
       <div class="item active">
@@ -100,7 +107,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <a href="#" id="biografia" class="w3-bar-item w3-button"><i class="fa fa-user custom"></i>Biografia</a>
   <a href="#" id="quehago" class="w3-bar-item w3-button"><i class="fa fa-pencil-square-o custom"></i>Que hago</a>
   <a href="#" id="contacto" class="w3-bar-item w3-button"><i class="fa fa-phone custom"></i>Contacto</a>
-	   <a href="turisticos.html" id="contacto" class="w3-bar-item w3-button"><i class="fa fa-align-justify custom"></i>Centros turisticos</a>
+  <a href="turisticos.html" id="contacto" class="w3-bar-item w3-button"><i class="fa fa-align-justify custom"></i>Centros turisticos</a>
 </div>
   </header>
 
@@ -125,11 +132,12 @@ and is wrapped around the whole page content, except for the footer in this exam
            Aquí podréis estar enterados de todo lo que haga: eventos, charlas, vídeos, noticicas...
          </p>
                 
+ <!--NODAL-->
 			  <h2>Te tengo un mensaje</h2>
 			  <!-- Trigger the modal with a button -->
 			  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Abrir mensaje</button>
 			
-			  <!-- Modal -->
+			 
 			  <div class="modal fade" id="myModal" role="dialog">
 			    <div class="modal-dialog">
 			    
@@ -152,9 +160,13 @@ and is wrapped around the whole page content, except for the footer in this exam
   
            <br>
            <br>
+           
+    
           <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Me gusta</b></button></p>
           <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Respuestas </b> <span class="w3-tag w3-white">1</span></button></p>
           <p class="w3-clear"></p>
+          
+          
           <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
             <hr>
               
@@ -170,7 +182,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   
     </div>
 
-    <!-- About/Information menu -->
+    <!-- ACERCA DEL AUTOR -->
     <div class="w3-col l4">
       <!-- About Card -->
       <div class="w3-white w3-margin">
@@ -181,86 +193,69 @@ and is wrapped around the whole page content, except for the footer in this exam
       </div>
       <hr>
 
-      <!-- Posts -->
+   <!-- PAGINA DE FACEBOOK -->
       <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
-          <h4>Pagina de Facebook Ilove Libros</h4>
+          <h4>Página de Facebook Ilove Libros</h4>
         </div>
       		<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Filovelibrosinfinito%2F&tabs=timeline&width=450&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=284610625033992" width="430" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </div>
       <hr>
 
-  
+     <!-- COLABORADORES -->
+     
       <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
           <h4>Colaboradores</h4>
         </div>
         <ul class="w3-ul w3-card-4">
 		  <li class="w3-padding-16">
-		    <span onclick="this.parentElement.style.display='none'" 
-		    class="w3-button w3-white w3-xlarge w3-right">×</span>
+		    
 		    <img src="imagenes/img_avatar2.png" class="w3-left w3-circle w3-margin-right" style="width:50px">
 		    <span class="w3-large">Mike</span><br>
 		    <span>Diseñador web</span>
 		  </li>
+		  
+		  
 		  <li class="w3-padding-16">
-		    <span onclick="this.parentElement.style.display='none'" 
-		    class="w3-button w3-white w3-xlarge w3-right">×</span>
+		    <
 		    <img src="imagenes/img_avatar5.png" class="w3-left w3-circle w3-margin-right" style="width:50px">
 		    <span class="w3-large">Jill</span><br>
 		    <span>Soporte</span>
 		  </li>  
+		  
 		  <li class="w3-padding-16">
-		    <span onclick="this.parentElement.style.display='none'" 
-		    class="w3-button w3-white w3-xlarge w3-right">×</span>
+		    
 		    <img src="imagenes/img_avatar6.png" class="w3-left w3-circle w3-margin-right" style="width:50px">
 		    <span class="w3-large">Jane</span><br>
 		    <span>Fotografo</span>
 		  </li> 
 		</ul>
       </div>
+      
       <hr>
       
-      <!-- Subscribe -->
-      <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Subscribete</h4>
-        </div>
-        <div class="w3-container w3-white">
-          <p>
-			Ingrese su correo electrónico a continuación y obtenga una notificación sobre las últimas entradas del blog..</p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Ingrese E-MAIL" style="width:100%"></p>
-          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribete</button></p>
-        </div>
-      </div>
 
-    <!-- END About/Intro Menu -->
+    <!-- fin de menu-->
     </div>
 
   <!-- END GRID -->
   </div>
 
-<!-- END w3-content -->
+<!-- END contenido -->
 </div>
 
-<!-- Subscribe Modal -->
-<div id="subscribe" class="w3-modal w3-animate-opacity">
-  <div class="w3-modal-content" style="padding:32px">
-    <div class="w3-container w3-white">
-      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
-      <h2 class="w3-wide">SUBSCRIBE</h2>
-      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
-      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
-    </div>
-  </div>
-</div>
 
-<!-- Footer -->
+
+<!-- FOOTER -->
 <footer class="w3-container w3-dark-grey" style="padding:32px">
   <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>Subir</a>
-  <p>Hecho por <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Jose Luis Ramirez</a></p>
+  <p>Hecho por <a href="WWW.FB.COM/JOSECITL" target="_blank">Jose Luis Ramirez</a></p>
 </footer>
+
+
+
+
 
 <script>
 // Toggle between hiding and showing blog replies/comments
