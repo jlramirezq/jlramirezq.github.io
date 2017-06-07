@@ -17,8 +17,10 @@ $(document).ready(function(){
 								 });
 							});
 
-windows.onload= function(){
-	document.getElementById("like").onclick= megusta;
+
+
+var x =	document.getElementById("like");
+x.onclick = megusta();
 		
 }
 
