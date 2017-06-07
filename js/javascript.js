@@ -17,7 +17,14 @@ $(document).ready(function(){
 								 });
 							});
 
+windows.onload= function(){
+	document.getElementById("like").onclick= megusta;
+		
+}
 
+function like(x){
+	
+	x.innerHTML=" :) Te gusta!!!!"
 }
 
 
