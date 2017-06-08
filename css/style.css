@@ -39,7 +39,18 @@
 .icon-barcode:before {
   content: "\e937";
 }
-
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
   
   
   .social {
